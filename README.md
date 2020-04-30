@@ -7,13 +7,13 @@ Then run the following commands:
 
     mkdir verification
     cd verification
-    repo init -u ssh://git@github.com/seL4/verification-manifest.git
+    repo init -u ssh://git@github.com/NICTA/verification-manifest.git
     repo sync
 
 
 If you do not have `ssh` access set up for github, you can also use
-    
-    repo init -u https://github.com/seL4/verification-manifest.git
+
+    repo init -u https://github.com/NICTA/verification-manifest.git
 
 For build instructions for the proofs, see the
 [l4v/](https://github.com/seL4/l4v/) repository.
